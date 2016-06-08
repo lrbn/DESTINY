@@ -1,9 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine;
-using System.Collections;
 
-[DisallowMultipleComponent]
 public class TargetMove : MonoBehaviour {
 	[SerializeField][RangeAttribute(1, 20)]
 	private float speed = 10;
