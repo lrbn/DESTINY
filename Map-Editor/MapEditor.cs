@@ -53,6 +53,8 @@ public class MapEditor : MonoBehaviour {
 	// If there are 8 players, create a 64 x 64 plane (6.4 x 6.4)
 	// If there are 10 players, create 96 x 96 plane (9.6 x 9.6)
 	
+	// In Unity, the default size of the mesh of the plane is 10 x 10
+	// In order to scale properly, the values are divided by 10
 	private void createPlane() {
 		if (numberOfPlayers == 2) {
 			plane.SetActive (true);
