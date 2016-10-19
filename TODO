@@ -1,0 +1,9 @@
+As the development has switched focus on to producing a playable prototype, we will need to implement certain components:
+
+  Multiplayer Networking
+  AI Ally/Enemy
+  
+Once these implementations are completed, we can shift our focus back to creating the editors.
+
+The first step in implementing the multiplayer component would be to find a way to host a server on Unity.
+The first step in implementing AI's would be to find and research certain AI's behavior patterns.
